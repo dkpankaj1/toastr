@@ -2,6 +2,8 @@
 
 namespace Dkpankaj\Toastr;
 
+use Dkpankaj\Toastr\View\Components\Toaster;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
 class ToastrServiceProvider extends ServiceProvider
@@ -19,6 +21,15 @@ class ToastrServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+
+
+        // Publish views
+        $this->publishes([
+            __DIR__.'./stubs/resources/views/components' => resource_path('views/components'),
+            __DIR__.'./stubs/resources/assets/toastr' => public_path('assets/toastr')
+        ], 'toastr');
+
+        // Register the Blade component
+        Blade::component('toastr', Toaster::class);
     }
 }
