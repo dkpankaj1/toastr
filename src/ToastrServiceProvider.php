@@ -23,8 +23,8 @@ class ToastrServiceProvider extends ServiceProvider
     {
         // Publish views
         $this->publishes([
-            __DIR__ . '/stubs/resources/views/components' => resource_path('views/components'),
-            __DIR__ . '/stubs/resources/assets/toastr' => public_path('assets/toastr')
+            __DIR__ . '/resources/views/components' => resource_path('views/components'),
+            __DIR__ . '/resources/assets/toastr' => public_path('assets/toastr')
         ], 'toastr');
 
 
