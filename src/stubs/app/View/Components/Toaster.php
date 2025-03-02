@@ -1,6 +1,6 @@
 <?php
 
-namespace Dkpankaj\Toastr\View\Components;
+namespace Dkpankaj1\Toastr\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;

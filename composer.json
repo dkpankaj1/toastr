@@ -1,26 +1,29 @@
 {
-    "name": "dkpankaj1/toastr",
-    "description": "A lightweight and customizable Toastr notification service for Laravel.",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Dkpankaj1\\Toastr\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Dipankar Kumar Pankaj",
-            "email": "dipankarpankaj38@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Dkpankaj\\Toastr\\ToastrServiceProvider"
-            ]
-        }
+  "name": "dkpankaj1/toastr",
+  "description": "A lightweight and customizable Toastr notification service for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Dkpankaj1\\Toastr\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Dipankar Kumar Pankaj",
+      "email": "dipankarpankaj38@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.31"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dkpankaj1\\Toastr\\ToastrServiceProvider"
+      ]
+    }
+  }
 }

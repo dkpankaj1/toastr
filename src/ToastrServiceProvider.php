@@ -1,8 +1,8 @@
 <?php
 
-namespace Dkpankaj\Toastr;
+namespace Dkpankaj1\Toastr;
 
-use Dkpankaj\Toastr\View\Components\Toaster;
+use Dkpankaj1\Toastr\View\Components\Toaster;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 

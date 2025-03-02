@@ -1,6 +1,6 @@
 <?php
 
-namespace Dkpankaj\Toastr\Services;
+namespace Dkpankaj1\Toastr\Services;
 
 class ToasterService
 {
