@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Dkpankaj1\\Toastr\\ToastrServiceProvider"
+                "Dkpankaj\\Toastr\\ToastrServiceProvider"
             ]
         }
     }
